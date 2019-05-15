@@ -40,7 +40,9 @@ int hex_dump(char *path)
     }
 
     /* set file to binary mode for reading */
+    #ifdef _WIN32
     _setmode(fd, 0x8000); // 0x8000 = _O_BINARY
+    #endif
 
     /* reading file & printing values */
     unsigned char buffer[BUF_SIZE];
