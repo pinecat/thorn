@@ -13,6 +13,6 @@ To view what the options do, run:
 thorn -h
 ```
 
-Thorn can be compiled on both Windows and Linux :D
+thorn can be compiled on both Windows and Linux :D
 
 Special thanks to [Adam](https://github.com/AdamRolek500/) for finding out ascii character 1a (substitute character) causes issues when reading binary files in Windows.
