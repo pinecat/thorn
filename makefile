@@ -1,8 +1,8 @@
-all:    thorn
+all:	thorn
 
-thorn:  thorn.c thorn.h
-        gcc -o thorn thorn.c
+thorn:	thorn.c thorn.h
+	gcc -o thorn thorn.c
 
 clean:
-        rm -f *.o thorn
+	rm -f *.o thorn
 
