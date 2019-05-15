@@ -15,4 +15,4 @@ thorn -h
 
 Thorn can be compiled on both Windows and Linux :D
 
-Special thanks to Adam for finding out ascii character 1a (substitute character) causes issues when reading binary files in Windows.
+Special thanks to [Adam](https://github.com/AdamRolek500/) for finding out ascii character 1a (substitute character) causes issues when reading binary files in Windows.
