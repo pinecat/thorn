@@ -40,7 +40,7 @@ int hex_dump(char *path)
     }
 
     /* set file to binary mode for reading */
-    _setmode(fd, _O_BINARY);
+    _setmode(fd, 0x8000); // 0x8000 = _O_BINARY
 
     /* reading file & printing values */
     unsigned char buffer[BUF_SIZE];
