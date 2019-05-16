@@ -166,7 +166,7 @@ int hex_dump(char *path, char *flags)
 
     while ((bytes = read(fd, buffer, sizeof(unsigned char) * n)) > 0) {
         if (!flags[0]) { // if not in clean mode
-            printf("0x%08x    ", tbytes); // print out bytes counter
+            printf("0x%08x     ", tbytes); // print out bytes counter
         }
 
         int i; // index for buffer
