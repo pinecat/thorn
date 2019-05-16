@@ -127,7 +127,7 @@ void help()
     printf("\t\tNo ascii mode.  Won't print out ascii values, but will still print byte counter.\n\n");
 
     printf("\t-x\n");
-    printf("\t\tHex format.  Will print out '0x' before each hex vale.\n\n");
+    printf("\t\tHex format.  Will print out '0x' before each hex value.\n\n");
 
     printf("\t-l\n");
     printf("\t\tSpecify the number of values per line.  If not specified, a default value of 16 will be used.\n\n");
