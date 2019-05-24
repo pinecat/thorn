@@ -180,6 +180,16 @@ int hex_dump(char *path, char *flags)
         }
 
         if (!flags[0] && !flags[1]) { // if not in clean mode
+            if (bytes < n) {
+                int j;
+                for (j = 0; j < n - bytes; j++) {
+                    if (!flags[2]) {
+                        printf("   ");
+                    } else {
+                        printf("     ");
+                    }
+                }
+            }
             printf("    "); // formatting
             int i; // index for buffer
             for (i = 0; i < bytes; i++) { // loop through buffer for ascii values
